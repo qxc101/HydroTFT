@@ -1,5 +1,8 @@
 # HydroTFT: Temporal Fusion Transformer for Multi-Horizon Hydrological Forecasting
+## Note
+This is the initial upload with the main focus of helping the reviewers to understand our paper and show reproducibility of our project. The current upload is already self-contained and functional but full version will be released upon publication. 
 
+Shell scripts, model checkpointsm, and analysis notebooks will be made available upon publication to preserve anonymity during review.
 ## Setup
 
 ### 1. Clone the baseline repository
@@ -86,11 +89,8 @@ python main.py evaluate --camels_root /path/to/CAMELS --run_dir runs/<run_folder
 
 | Flag | Description |
 |------|-------------|
-| `--model_type tft` | Use TFT (default is EA-LSTM) |
-| `--pred_days N` | Forecast horizon in days. 0 = nowcast (vanilla TFT), >=1 = forecast (v3f TFT) |
-| `--use_starter_features` | Add 5 engineered features: doy_sin, doy_cos, prcp_sum_90, degday_7, wetdays_7 |
+| `--model_type tft` | Choose the model to use, can be tft, lstm, ealstm |
+| `--pred_days N` | Forecast horizon in days. N can be 0 (nowcast), or any positive int. |
+| `--use_starter_features True` | Add 5 engineered features as input. |
 | `--seq_length N` | Input sequence length (default 270) |
 
-## Analysis notebooks and experiment scripts
-
-Shell scripts (`run_experiments.sh`, `run_ablation.sh`, etc.) and additional analysis notebooks will be made available upon publication to preserve anonymity during review.
