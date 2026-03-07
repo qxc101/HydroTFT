@@ -1,8 +1,8 @@
 # HydroTFT: Temporal Fusion Transformer for Multi-Horizon Hydrological Forecasting
 ## Note
-This is the initial upload with the main focus of helping the reviewers to understand our paper and show reproducibility of our project. The current upload is already self-contained and functional but full version will be released upon publication. 
+This is the initial upload with the main focus of helping the reviewers to understand our paper and show reproducibility of our project. The current upload is already self-contained and functional. 
 
-Shell scripts, model checkpointsm, and analysis notebooks will be made available upon publication to preserve anonymity during review.
+Model checkpoints and complete version will be made available upon publication.
 ## Setup
 
 ### 1. Clone the baseline repository
