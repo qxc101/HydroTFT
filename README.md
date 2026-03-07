@@ -2,7 +2,6 @@
 ## Note
 This is the initial upload with the main focus of helping the reviewers to understand our paper and show reproducibility of our project. The current upload is already self-contained and functional. 
 
-Model checkpoints and complete version will be made available upon publication.
 ## Setup
 
 ### 1. Clone the baseline repository
